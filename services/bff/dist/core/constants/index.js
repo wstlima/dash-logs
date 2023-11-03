@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DB_STORAGE_PRODUCTION = exports.DB_STORAGE_DEVELOPMENT = exports.DB_STORAGE_TEST = exports.DB_NAME_PRODUCTION = exports.DB_NAME_DEVELOPMENT = exports.DB_NAME_TEST = exports.DB_PASS = exports.DB_USER = exports.DB_PORT = exports.DB_HOST = exports.DB_DIALECT = exports.PORT = exports.LOGS_REPOSITORY = exports.SETTINGS_REPOSITORY = exports.SEQUELIZE = void 0;
+exports.SEQUELIZE = 'SEQUELIZE';
+exports.SETTINGS_REPOSITORY = 'SETTINGS_REPOSITORY';
+exports.LOGS_REPOSITORY = 'LOGS_REPOSITORY';
+exports.PORT = '4000';
+exports.DB_DIALECT = 'sqlite';
+exports.DB_HOST = 'localhost';
+exports.DB_PORT = '3306';
+exports.DB_USER = 'root';
+exports.DB_PASS = 'root';
+exports.DB_NAME_TEST = 'db_test';
+exports.DB_NAME_DEVELOPMENT = 'db_dev';
+exports.DB_NAME_PRODUCTION = 'db_prod';
+exports.DB_STORAGE_TEST = './data/db_test.sqlite';
+exports.DB_STORAGE_DEVELOPMENT = './data/db_dev.sqlite';
+exports.DB_STORAGE_PRODUCTION = './data/db_prod.sqlite';

@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+
+  srv-bff:
+    container_name: srv-bff
+    build:
+      context: ./services/bff
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 4000:4000
+    networks:
+      - cmix-networks
+
+  srv-front:
+    container_name: srv-front
+    build:
+      context: ./services/front
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    networks:
+      - cmix-networks
+
+networks:
+  cmix-networks:
+    driver: bridge

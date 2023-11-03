@@ -1,0 +1,15 @@
+export const SEQUELIZE = 'SEQUELIZE';
+export const SETTINGS_REPOSITORY = 'SETTINGS_REPOSITORY';
+export const LOGS_REPOSITORY = 'LOGS_REPOSITORY';
+export const PORT = '4000'
+export const DB_DIALECT = 'sqlite'
+export const DB_HOST = 'localhost'
+export const DB_PORT = '3306'
+export const DB_USER = 'root'
+export const DB_PASS = 'root';
+export const DB_NAME_TEST = 'db_test';
+export const DB_NAME_DEVELOPMENT = 'db_dev';
+export const DB_NAME_PRODUCTION = 'db_prod';
+export const DB_STORAGE_TEST = './data/db_test.sqlite';
+export const DB_STORAGE_DEVELOPMENT = './data/db_dev.sqlite';
+export const DB_STORAGE_PRODUCTION = './data/db_prod.sqlite';
